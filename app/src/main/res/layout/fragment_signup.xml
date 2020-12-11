@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+ <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/img_signup"
+            android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginBottom="24dp"
+                   android:src="@drawable/logo" />
+        <!-- Name Label -->
+        <EditText android:id="@+id/input_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="6dp"
+                  android:inputType="textPersonName"
+                  android:hint="Name"
+                  android:textColor="@android:color/white"
+                  android:textColorHighlight="@android:color/white"
+                  android:textColorHint="@android:color/white"
+                  android:textColorLink="@android:color/white" />
+        <!--  Email Label -->
+        <EditText android:id="@+id/input_email"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="6dp"
+                  android:inputType="textEmailAddress"
+                  android:hint="Email"
+                  android:textColor="@android:color/white"
+                  android:textColorHighlight="@android:color/white"
+                  android:textColorHint="@android:color/white"
+                  android:textColorLink="@android:color/white" />
+        <!-- Mobile number -->
+        <EditText android:id="@+id/input_mobile"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="number"
+                  android:layout_margin="6dp"
+                  android:hint="Mobile Number"
+                  android:textColor="@android:color/white"
+                  android:textColorHighlight="@android:color/white"
+                  android:textColorHint="@android:color/white"
+                  android:textColorLink="@android:color/white" />
+        <!-- Password Label -->
+        <EditText android:id="@+id/input_password"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textPassword"
+                  android:layout_margin="6dp"
+                  android:hint="Password"
+                  android:textColor="@android:color/white"
+                  android:textColorHighlight="@android:color/white"
+                  android:textColorHint="@android:color/white"
+                  android:textColorLink="@android:color/white" />
+        <!-- Password Re-enter Label -->
+        <EditText android:id="@+id/input_passwordagain"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="6dp"
+                  android:inputType="textPassword"
+                  android:hint="Password Again"
+                  android:textColor="@android:color/white"
+                  android:textColorHighlight="@android:color/white"
+                  android:textColorHint="@android:color/white"
+                  android:textColorLink="@android:color/white"/>
+        <!-- Signup Button -->
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:text="Create Account" />
+        <!-- Link to Login -->
+        <TextView
+            android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Already a member? Login"
+            android:gravity="center"
+            android:textSize="16dip"/>
+</LinearLayout>
+</ScrollView>

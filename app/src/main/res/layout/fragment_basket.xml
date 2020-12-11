@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.med.bottommenuapp.BasketFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recv_list_cart"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <TextView
+            android:id="@+id/tv_solde"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_margin="2dp"
+            android:layout_width="250dp"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_gravity="end"
+            android:layout_margin="2dp"
+            android:text="Order"
+            android:background="@color/colorAccent"
+            android:layout_weight="6.92"/>
+
+    </LinearLayout>
+</LinearLayout>
+

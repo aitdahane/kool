@@ -1,0 +1,28 @@
+<resources>
+    <!-- Strings related to Menu -->
+    <string name="app_name">Kool</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_basket">Basket</string>
+    <string name="title_"></string>
+
+    <!-- Strings related to Search Interface -->
+    <string name="hint_search">Search restaurants</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_basket_fragment">Hello basket fragment</string>
+    <string name="hello_profile_fragment">Hello profile fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bla bla bla bla bla bla bla bla bla
+                                        bla bla bla bla bla bla bla bla
+                                        Bla bla bla bla bla bla bla bla bla
+                                        bla bla bla bla bla bla bla bla
+                                        Bla bla bla bla bla bla bla bla bla
+                                        Bla bla bla bla bla bla bla bla bla
+                                        Bla bla bla bla bla bla bla bla bla</string>
+
+    <!-- Strings related to login -->
+
+</resources>
